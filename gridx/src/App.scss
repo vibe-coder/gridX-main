@@ -46,14 +46,15 @@
     color: black;
     margin: 0;
     position: absolute;
-    height: 100px;
+    height: 0px;
     right: 0;
     left: 0;
+    background-color: yellow;
 
     .header-wrapper{
-      backdrop-filter: blur(20px) saturate(180%);
-      -webkit-backdrop-filter: blur(20px) saturate(180%);
-      height: 90px;
+      // backdrop-filter: blur(20px) saturate(180%);
+      // -webkit-backdrop-filter: blur(20px) saturate(180%);
+      height: 80px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -62,14 +63,70 @@
       right: 0;
       top: 0;
       left: 0;
+      background-color: white;
 
       .gridx-logo{
         width: 80px;
       }
 
-    button{
-      z-index: 1000;
-    }
+      button{
+        z-index: 1000;
+      }
+
+      .menu-icon{
+        
+        #menu_checkbox {
+          display: none;
+        }
+        
+        label {
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: space-between;
+          width: 30px;
+          height: 20px;
+          transform: translateY(-5%);
+          transition: 0.3s ease transform;
+          cursor: pointer;
+          
+        }
+        
+        label div {
+          width: 5px;
+          height: 3px;
+          background-color: grey;
+          margin-left: 0;
+          transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom,
+            0.3s ease background-color;
+        }
+        
+        label div:first-child {
+          width: 30px;
+        }
+        
+        label div:nth-child(2) {
+          width: 23px;
+        }
+        
+        label div:last-child {
+          width: 16px;
+          margin-bottom: 0;
+        }
+        
+        #menu_checkbox:checked + label {
+          transform: translateY(30%) rotateZ(-90deg);
+        }
+        
+        #menu_checkbox:checked + label div {
+          width: 6px;
+          margin-left: 12px;
+          margin-bottom: 3px;
+          background-color: #0bb7b4;
+        }
+      } 
+      
     }
 
     .nav-wrapper{

@@ -1,58 +1,120 @@
 
 @media (min-width: 360px) {
   .container{
-    background-color: white;
-    position: absolute;
-    top: 90px;
-    right: 0;
-    left: 0;
-    z-index: -1;
+    margin-top: 100px;
     height: 100vh;
     padding: 0 20px;
     padding-top: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+  0deg,
+  hsl(179deg 64% 85%) 0%,
+  hsl(179deg 64% 86%) 5%,
+  hsl(179deg 64% 86%) 10%,
+  hsl(179deg 64% 87%) 14%,
+  hsl(179deg 64% 88%) 19%,
+  hsl(179deg 64% 89%) 24%,
+  hsl(179deg 64% 89%) 29%,
+  hsl(178deg 64% 90%) 33%,
+  hsl(178deg 64% 91%) 38%,
+  hsl(178deg 64% 92%) 43%,
+  hsl(178deg 63% 92%) 48%,
+  hsl(178deg 63% 93%) 52%,
+  hsl(178deg 63% 94%) 57%,
+  hsl(178deg 63% 94%) 62%,
+  hsl(178deg 64% 95%) 67%,
+  hsl(178deg 64% 96%) 71%,
+  hsl(178deg 64% 97%) 76%,
+  hsl(178deg 64% 97%) 81%,
+  hsl(178deg 64% 98%) 86%,
+  hsl(178deg 64% 99%) 90%,
+  hsl(178deg 64% 99%) 95%,
+  hsl(0deg 0% 100%) 100%
+);
+
 
     .left-column{
-      margin-bottom: 60px;
+      margin-bottom: 90px;
+      justify-content: center;
+      
       h1{
-        font-size: 2.3rem;
-        line-height: 38px;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 30px;
         margin: 0;
         margin-bottom: 10px;
+        font-weight: 500;
+        color: #0bb7b4;
       }
   
       p{
-        font-size: .9rem;
+        font-size: .7rem;
+        text-align: center;
         margin: 0;
         margin-bottom: 50px;
-      }
-      .demo-button{
-        background-color: #ffc612;
-        border: none;
-        padding: 10px 20px;
-        font-family: Mark Pro;
-        font-weight: 500;
-        margin-right: 20px;
+        color: #808080;
+        padding: 0 10px;
       }
 
-      .sales-button{
-        border: none;
-        background-color: transparent;
-        font-family: Mark Pro;
-        font-weight: 500;
-        
+      .button-wrapper{
+        display: flex;
+        justify-content: center;
+
+        .demo-button{
+          background-color: #ffc612;
+          border: none;
+          padding: 10px 20px;
+          font-family: Mark Pro;
+          font-weight: 500;
+          margin-right: 15px;
+          box-shadow: 0px 7px 20px rgba(255, 198, 18, 0.8);
+        }
+        .sales-button{
+          border: none;
+          background-color: transparent;
+          font-family: Mark Pro;
+          font-weight: 500;
+          
+        }
       }
+
     }
 
     .right-column{
       display: flex;
       justify-content: center;
+      width: 700px;
+
+      .basic {
+        width: 200px;
+        height: 200px;
+        background: rgba(255,255,255,0.4);
+        position: relative;
+      }
+      .blur {
+        position: absolute;
+        bottom: 25px;
+        right: 162px;
+        width: 200px;
+        height: 200px;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        border: 9px solid rgba(255, 255, 255, 0.125);
+      }
     }
 
     .cls-1{fill:#fbb03b;}
     .cls-2{fill:#58595b;}
     .cls-15,.cls-25,.cls-3{fill:#404041;}
     .cls-4{fill:#d1d3d4;}
-    .cls-5{fill:#029089;}
+    .cls-5{
+      fill: rgba(184, 184, 184, 0.4);
+      background: rgba(255,255,255,0.4);
+      backdrop-filter: blur(5px);
+    }
     .cls-7{fill:#a6a8ab;}
     .cls-6{fill:#fff;}
     .cls-9{fill:#bbbdbf;}
@@ -76,7 +138,14 @@
     .cls-29{fill:#b3b3b3;}
     .cls-30{fill:#ffc612;}
     .cls-8{fill:#808184;}
-  }
+    .blur {
+      width: 200px;
+      height: 200px;
+      background: rgba(255,255,255,0.4);
+      backdrop-filter: blur(5px);
+    }
+    
+  // }
 }
 
 @media (min-width: 768px) {
@@ -89,4 +158,5 @@
 
 @media (min-width: 1200px) {
   
+}
 }

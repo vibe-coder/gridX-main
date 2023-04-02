@@ -1,7 +1,7 @@
 import './css/hero-section.scss'
 
 
-export default function heroSection(){
+export default function HeroSection(){
   return(
     <>
       <div className="container">
@@ -9,7 +9,7 @@ export default function heroSection(){
        {/* LEFT COLUMN */}
         <div className="left-column">
         <h1 className="hero-header">
-          Build customized <br/> digital energy <br/> solutions.
+          Build customized digital <strong style={{weight:"800", color:"black"}}>energy solutions</strong>
         </h1>
         <p className="hero-paragraph">
           By complementing powerful IoT and cloud
@@ -17,8 +17,10 @@ export default function heroSection(){
           XENON platform makes building cutting-edge 
           energy applications quick and cost-efficient.
         </p>
+        <div className="button-wrapper">
         <button className="demo-button">Book a demo</button>
         <button className="sales-button">Contact Sales ›</button>
+        </div>
       </div>
 
 

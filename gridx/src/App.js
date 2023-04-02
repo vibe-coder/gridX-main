@@ -8,18 +8,27 @@ function App() {
     <div className="App">
       <div className="header-wrapper">
         <img className='gridx-logo' src={gridxLogo} alt="gridx logo"/>
-        <button className='hamburger-icon'>Button</button>
+        
+        <div className="menu-icon">
+          <input type="checkbox" id="menu_checkbox"/>
+          <label for="menu_checkbox">
+            <div></div>
+            <div></div>
+            <div></div>
+          </label>
+        </div>
+
       </div>
 
       
 
-      <nav className='nav-wrapper'>
+      {/* <nav className='nav-wrapper'>
 
-        {/* MENU WRAPPER FOR MOBILE VIEW */}
+        MENU WRAPPER FOR MOBILE VIEW
 
         <ul className="menu-wrapper">
           
-            {/* XENON */}
+            XENON
 
           <div className="menu-container">
             <h2>XENON</h2>
@@ -47,7 +56,7 @@ function App() {
             </ul>
           </div>
 
-          {/* USE CASES */}
+          USE CASES
 
           <div className="menu-container">
             <h2>USE CASES</h2>
@@ -68,7 +77,7 @@ function App() {
             </ul>
           </div>
 
-          {/* MODULE */}
+          MODULE
 
           <div className="menu-container">
             <h2>MODULES</h2>
@@ -174,7 +183,7 @@ function App() {
                 </Link> 
               </li>
 
-              {/* COMPANY */}
+              COMPANY
 
               <h2>COMPANY</h2>
               <h3>ABOUT US</h3>
@@ -227,16 +236,16 @@ function App() {
 
 
 
-        {/* LINK WRAPPER FOR DESKTOP VIEW */}
+        LINK WRAPPER FOR DESKTOP VIEW
 
         <ul className="link-wrapper">
-          {/* <li><Link className="link" to="/">XENON</Link></li>
+          <li><Link className="link" to="/">XENON</Link></li>
           <li><Link className="link" to="/">use cases</Link></li>
           <li><Link className="link" to="/">modules</Link></li>
           <li><Link className="link" to="/">company</Link></li>
-          <li><Link className="demo-link" to="/">book a demo</Link></li> */}
+          <li><Link className="demo-link" to="/">book a demo</Link></li>
         </ul>
-      </nav>
+      </nav> */}
 
 
       <Routes>
