@@ -2,7 +2,7 @@ import "./css/references.scss"
 
 export default function References(){
   return(
-    <div className="reference-container">
+    <div className="references-container">
       <div className="first-column">
         <h4>REFERENCES</h4>
         <h3>Built for any use case</h3>
