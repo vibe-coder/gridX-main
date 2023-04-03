@@ -5,6 +5,7 @@ import References from "./References";
 import XenonPlatform from "./XenonPlatform";
 import Modules from "./modules";
 import API from "./API";
+import Company from "./Company";
 
 
 function HomeConatiner(){
@@ -16,6 +17,7 @@ function HomeConatiner(){
       <XenonPlatform/>
       <Modules/>
       <API/>
+      <Company/>
     </div>
   )
 }
