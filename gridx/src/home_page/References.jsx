@@ -11,6 +11,44 @@ export default function References(){
         </p>
         <a href="www.gridx.ai">See all references</a>
       </div>
+
+      <div className="second-column">
+        <div className="company-references">
+          .
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+
+        <div className="company-references">
+          hey
+        </div>
+      </div>
     </div>
   )
 }
