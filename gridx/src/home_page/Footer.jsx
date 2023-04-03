@@ -1,6 +1,10 @@
 import React from 'react'
 import "./css/footer.scss"
 import gridxLogo from "../icons/GRIDX-LOGO-07.svg"
+import twitter from "../icons/twitter (1).png"
+import linkedin from "../icons/linkedin.png"
+import instagram from "../icons/instagram.png"
+import britain from "../icons/united-kingdom.png"
 
 function Footer() {
   return (
@@ -74,9 +78,11 @@ function Footer() {
         <a href='/'>Terms of use</a>
         <br/>
         <p><strong>Switch Language</strong></p>
-        <button>English</button>
+        <button> <img src={britain} alt="/"/>English</button>
         <div className="social-media-icons">
-          hey
+          <img src={linkedin} alt="/"/>
+          <img src={twitter} alt="/"/>
+          <img src={instagram} alt="/"/>
         </div>
         
 

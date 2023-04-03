@@ -1,5 +1,5 @@
 .footer-container{
-  height: 205vh;
+  height: 210vh;
   background-color: #f1f4fa;
   padding: 40px 20px;
   display: flex;
@@ -75,10 +75,24 @@
       background-color: rgb(22, 22, 22);
       color: white;
       font-family: Mark Pro;
-      padding: 5px 20px;
+      padding: 5px 10px;
       border: none;
       border-radius: 5px;
       margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      font-size: .9rem;
+    }
+
+    img{
+      width: 25px;
+      padding: 0 10px;
+    }
+
+    .social-media-icons{
+      img{
+        opacity: 0.7;
+      }
     }
   }
 }
