@@ -2,6 +2,7 @@ import React from "react"
 import HeroSection from "./HeroSetion";
 import ClientSection from "./ClientSection";
 import References from "./References";
+import XenonPlatform from "./XenonPlatform";
 
 
 function HomeConatiner(){
@@ -10,6 +11,7 @@ function HomeConatiner(){
       <HeroSection/>
       <ClientSection/>
       <References/>
+      <XenonPlatform/>
     </div>
   )
 }

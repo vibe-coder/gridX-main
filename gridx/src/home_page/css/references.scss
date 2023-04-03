@@ -38,13 +38,14 @@
     width: 100%;
     overflow-x:scroll;
     white-space: nowrap;
+    scrollbar-color: transparent;
     
   
 
     .company-references{
       height: 200px;
       width: 200px;
-      background-color: yellow;
+      background-color: grey;
       display: flex;
       justify-content: center;
       align-items: center;
