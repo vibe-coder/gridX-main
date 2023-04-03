@@ -6,6 +6,7 @@ import XenonPlatform from "./XenonPlatform";
 import Modules from "./modules";
 import API from "./API";
 import Company from "./Company";
+import Footer from "./Footer";
 
 
 function HomeConatiner(){
@@ -18,6 +19,7 @@ function HomeConatiner(){
       <Modules/>
       <API/>
       <Company/>
+      <Footer/>
     </div>
   )
 }
