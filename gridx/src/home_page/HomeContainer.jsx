@@ -4,6 +4,7 @@ import ClientSection from "./ClientSection";
 import References from "./References";
 import XenonPlatform from "./XenonPlatform";
 import Modules from "./modules";
+import API from "./API";
 
 
 function HomeConatiner(){
@@ -14,6 +15,7 @@ function HomeConatiner(){
       <References/>
       <XenonPlatform/>
       <Modules/>
+      <API/>
     </div>
   )
 }
