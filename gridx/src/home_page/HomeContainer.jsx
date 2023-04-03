@@ -7,6 +7,7 @@ import Modules from "./modules";
 import API from "./API";
 import Company from "./Company";
 import Footer from "./Footer";
+import Menu from "./Menu";
 
 
 function HomeConatiner(){
@@ -20,6 +21,7 @@ function HomeConatiner(){
       <API/>
       <Company/>
       <Footer/>
+      <Menu/>
     </div>
   )
 }

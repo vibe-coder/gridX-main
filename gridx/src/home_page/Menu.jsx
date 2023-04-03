@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import "./css/menu.scss"
 
 function Menu() {
   return (
-    <div>
+    <div className='nav-wrapper'>
       <ul className="menu-wrapper">
           
           {/* XENON */}
