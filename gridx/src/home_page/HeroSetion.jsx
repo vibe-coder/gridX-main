@@ -10,7 +10,7 @@ export default function HeroSection(){
        {/* LEFT COLUMN */}
         <div className="left-column">
         <h1 className="hero-header">
-          Build customized digital <strong style={{weight:"800", color:"black"}}>energy solutions</strong>
+          Build customized digital <span className='bold-header'>energy solutions</span>
         </h1>
         <p className="hero-paragraph">
           By complementing powerful IoT and cloud
