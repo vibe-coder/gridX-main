@@ -6,6 +6,13 @@ export default function HeroSection(){
   return(
     <>
       <div className="container">
+
+        <div className="parallelogram" id="one"></div>
+        <div className="parallelogram" id="two"></div>
+        <div className="parallelogram" id="three"></div>
+        <div className="parallelogram" id="four"></div>
+        <div className="parallelogram" id="five"></div>
+        <div className="parallelogram" id="six"></div>
       
        {/* LEFT COLUMN */}
         <div className="left-column">
