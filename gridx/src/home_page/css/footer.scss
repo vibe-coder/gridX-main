@@ -1,10 +1,11 @@
 .footer-container{
   height: 210vh;
   background-color: #f1f4fa;
-  padding: 40px 20px;
+  padding: 70px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #546982;
 
   .row-one{
     display: flex;
@@ -14,18 +15,18 @@
     
     img{
       width: 100px;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     p{
       text-align: center;
-      font-size: .8rem;
+      font-size: 1rem;
       margin: 0;
     }
   }
 
   .row-two{
-    font-size: .8rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,14 +35,15 @@
     a{
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #546982;
       display: block;
       margin-bottom: 10px;
+
     }
   }
 
   .row-three{
-    font-size: .8rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,14 +52,14 @@
     a{
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #546982;
       display: block;
       margin-bottom: 10px;
     }
   }
 
   .row-four{
-    font-size: .8rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +68,7 @@
     a{
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #546982;
       display: block;
       margin-bottom: 10px;
     }

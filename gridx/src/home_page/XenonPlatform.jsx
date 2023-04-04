@@ -12,7 +12,7 @@ export default function XenonPlatform(){
 
       <div className="second-wrapper">
         <h3>XENON</h3>
-        <p>Our platform provides a standardized interface to distributed energy resources. It connects to devices from more than 43 OEMs - either via an IoT gateway or through the cloud.</p>
+        <p>Our platform provides a standardized interface to distributed energy resources. It connects to devices from more than <span className="oems">43 OEMs</span> - either via an <span className="gateway">IoT gateway</span> or through the cloud.</p>
         <a href="gridx.ai">Learn more about XENON</a>
         
         

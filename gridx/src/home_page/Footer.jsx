@@ -25,7 +25,7 @@ function Footer() {
 
         <br/>
         <p> <strong>Contact</strong> <br/>
-        <a href='/' style={{textDecoration:"none", color:"black"}}>info@gridx.ai</a> <br/>
+        <a href='/' style={{textDecoration:"none", color:"#546982"}}>info@gridx.ai</a> <br/>
         +49 (0) 241 412597 10
         </p>
       </div>

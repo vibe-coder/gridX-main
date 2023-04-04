@@ -1,9 +1,9 @@
 .modules-container{
-  height: 40vh;
-  padding: 40px 20px;
+  height: 34vh;
+  padding: 70px 20px;
 
   h4{
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 0;
     margin-bottom: 10px;
     color: #4166e9;
@@ -12,19 +12,22 @@
   h3{
     margin: 0;
     margin-bottom: 20px;
+    font-size: 1.3rem;
   }
 
   p{
-    font-size: .8rem;
-    color: #808080;
+    font-size: 1rem;
+    color: #546982;
     margin-bottom: 40px;
   }
 
   button{
-    background-color: #ffc612;
+    background-color: #0bb7b4;
+    color: white;
     border: none;
     padding: 12px 20px;
     font-family: Mark Pro;
     font-weight: 500;
+    font-size: 1.2rem;
   }
 }

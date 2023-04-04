@@ -1,12 +1,12 @@
 .xenon-platform-container{
   background-color: #f1f4fa;
-  height: 90vh;
-  padding: 50px 20px;
+  height: 85vh;
+  padding: 70px 20px;
 
   .first-wrapper{
 
     h4{
-      font-size: .8rem;
+      font-size: 1rem;
       margin: 0;
       margin-bottom: 10px;
       color: #4166e9;
@@ -14,7 +14,8 @@
 
     h3{
       margin: 0;
-      margin-bottom: 40px;
+      margin-bottom: 50px;
+      font-size: 1.3rem;
     }
   }
 
@@ -27,16 +28,21 @@
 
     p{
       margin: 0;
-      font-size: .8rem;
-      color: #808080;
-      margin-bottom: 10px;
+      font-size: 1rem;
+      color: #546982;
+      margin-bottom: 20px;
+
+      .oems, .gateway{
+        font-weight: 500;
+        color: #0bb7b4;
+      }
     }
 
     a{
       text-decoration: none;
       color: #0bb7b4;
       font-weight: 500;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
   }
 }

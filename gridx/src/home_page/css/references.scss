@@ -1,12 +1,12 @@
 .references-container{
-  height: 60vh;
-  padding: 60px 0px;
+  height: 50vh;
+  padding: 70px 0px;
   // overflow: hidden;
 
   .first-column{
     padding: 0 20px;
     h4{
-      font-size: .8rem;
+      font-size: 1rem;
       margin: 0;
       margin-bottom: 10px;
       color: #4166e9;
@@ -15,40 +15,40 @@
     h3{
       margin: 0;
       margin-bottom: 10px;
+      font-size: 1.3rem;
     }
   
     p{
       margin: 0;
-      font-size: .8rem;
-      color: #808080;
-      margin-bottom: 10px;
+      font-size: 1rem;
+      color: #546982;
+      margin-bottom: 30px;
+      
     }
   
     a{
       text-decoration: none;
       color: #0bb7b4;
       font-weight: 500;
-      font-size: 0.9rem;
+      font-size: 1.2rem;
     }
+  }
+
+  .second-column::-webkit-scrollbar {
+    display: none;
   }
 
   .second-column{
     margin-top: 40px;
     display: flex;
     width: 100%;
-    overflow-x:scroll;
-    white-space: nowrap;
-    scrollbar-color: transparent;
-    
+    overflow-x:scroll; 
   
 
     .company-references{
       height: 200px;
       width: 200px;
       background-color: grey;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       border-radius: 20px;
       margin-left: 20px;
       padding: 0 100px;
