@@ -55,7 +55,7 @@
       box-shadow: -10px 10px 30px rgb(220, 227, 242, 0.7);
 
       .company-wrapper{
-        background: RED;
+        
         height: 120px;
         width: 200px;
         display: flex;
@@ -74,6 +74,13 @@
 
       img{
         width: 144px;
+      }
+
+      .img-2{
+        margin-top: 20px;
+        height: 100px;
+        object-fit: contain;
+        object-position: center;
       }
     }
   }

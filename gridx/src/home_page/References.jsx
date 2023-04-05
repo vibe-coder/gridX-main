@@ -25,7 +25,7 @@ export default function References(){
         <div className="company-references">
         <h3>E-Mobility</h3>
           <div className="company-wrapper">
-            <img src={smartlab} alt="/"/>
+            <img src={maingau} alt="/"/>
           </div>
         </div>
 
@@ -39,49 +39,49 @@ export default function References(){
         <div className="company-references">
         <h3>E-Mobility</h3>
           <div className="company-wrapper">
-            <img src={smartlab} alt="/"/>
+            <img src={ibc} alt="/" className="img-2"/>
           </div>
         </div>
 
         <div className="company-references">
           <h3>E-Mobility</h3>
           <div className="company-wrapper">
-            <img src={smartlab} alt="/"/>
+            <img src={eliso} alt="/" className="img-2"/>
           </div>
         </div>
 
         <div className="company-references">
           <h3>E-Mobility</h3>
           <div className="company-wrapper">
-            <img src={smartlab} alt="/"/>
+            <img src={gatter} alt="/"/>
           </div>
         </div>
 
         <div className="company-references">
         <h3>E-Mobility</h3>
           <div className="company-wrapper">
-            <img src={smartlab} alt="/"/>
+            <img src={electris} alt="/"/>
           </div>
         </div>
 
         <div className="company-references">
         <h3>E-Mobility</h3>
           <div className="company-wrapper">
-            <img src={smartlab} alt="/"/>
+            <img src={goldbeck} alt="/"/>
           </div>
         </div>
 
         <div className="company-references">
-        <div className="company-wrapper">
           <h3>E-Mobility</h3>
-          <img src={smartlab} alt="/"/>
+          <div className="company-wrapper">
+            <img src={dhl} alt="/"/>
           </div>
         </div>
 
         <div className="company-references">
-        <div className="company-wrapper">
           <h3>E-Mobility</h3>
-          <img src={smartlab} alt="/"/>
+          <div className="company-wrapper">
+            <img src={austrianPost} alt="/" className="img-2"/>
           </div>
         </div>
       </div>
