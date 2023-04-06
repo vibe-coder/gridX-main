@@ -53,9 +53,9 @@
       border-radius: 20px;
       margin-left: 20px;
       box-shadow: -10px 10px 30px rgb(220, 227, 242, 0.7);
-      animation: mymove 50s ease infinite;
+      animation: mymove 120s ease infinite;
       animation-play-state: running;
-      animation-delay: -320s;
+      animation-delay: -50s ;
       position: relative;
       
 
@@ -88,10 +88,10 @@
       }
     }
 
-    @keyframes mymove {
-      0% {left: 0px}
-      25% {left: -1600px}
-      50% {left: 0px}
-    }
+    // @keyframes mymove {
+    //   0% {left: 0px}
+    //   25% {left: -1600px}
+    //   50% {left: 0px}
+    // }
   }
 }

@@ -51,6 +51,19 @@
     left: 0;
     background-color: yellow;
 
+    .menu-container{
+      background-color: red;
+      position: absolute;
+      z-index: 100000000000000;
+      top: 70px;
+      right: 0;
+      left: 0;
+      height: 100vh;
+      overflow: scroll;
+      visibility: hidden;
+
+    }
+
     .header-wrapper{
       // backdrop-filter: blur(20px) saturate(180%);
       // -webkit-backdrop-filter: blur(20px) saturate(180%);
