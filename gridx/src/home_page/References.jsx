@@ -37,7 +37,7 @@ export default function References(){
         </div>
 
         <div className="company-references">
-        <h3>E-Mobility</h3>
+        <h3>HEMS</h3>
           <div className="company-wrapper">
             <img src={ibc} alt="/" className="img-2"/>
           </div>
@@ -51,14 +51,14 @@ export default function References(){
         </div>
 
         <div className="company-references">
-          <h3>E-Mobility</h3>
+          <h3>HEMS</h3>
           <div className="company-wrapper">
             <img src={gatter} alt="/"/>
           </div>
         </div>
 
         <div className="company-references">
-        <h3>E-Mobility</h3>
+        <h3>HEMS</h3>
           <div className="company-wrapper">
             <img src={electris} alt="/"/>
           </div>
@@ -72,14 +72,14 @@ export default function References(){
         </div>
 
         <div className="company-references">
-          <h3>E-Mobility</h3>
+          <h3>Logistics</h3>
           <div className="company-wrapper">
             <img src={dhl} alt="/"/>
           </div>
         </div>
 
         <div className="company-references">
-          <h3>E-Mobility</h3>
+          <h3>Logistics</h3>
           <div className="company-wrapper">
             <img src={austrianPost} alt="/" className="img-2"/>
           </div>

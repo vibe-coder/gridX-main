@@ -97,7 +97,7 @@
         label div {
           width: 5px;
           height: 3px;
-          background-color: grey;
+          background-color: black;
           margin-left: 0;
           transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom,
             0.3s ease background-color;
@@ -108,11 +108,11 @@
         }
         
         label div:nth-child(2) {
-          width: 23px;
+          width: 30px;
         }
         
         label div:last-child {
-          width: 16px;
+          width: 30px;
           margin-bottom: 0;
         }
         
