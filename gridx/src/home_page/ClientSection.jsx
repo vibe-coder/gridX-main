@@ -19,14 +19,13 @@ export default function ClientSection(){
     <div className="client-container">
       <div className="client-company-container">
         <img src={clientLogo1} alt="client logo"/>
-        <img src={clientLogo2} alt="client logo"/>
-        <img src={clientLogo3} alt="client logo"/>
-        <img src={clientLogo4} alt="client logo"/>
-        <img src={clientLogo5} alt="client logo"/>
-        <img src={clientLogo5} alt="client logo"/>
-        <img src={clientLogo6} alt="client logo"/>
-        <img src={clientLogo7} alt="client logo"/>
         <img src={clientLogo8} alt="client logo"/>
+        <img src={clientLogo5} alt="client logo"/>
+        <img src={clientLogo4} alt="client logo"/>
+        <img src={clientLogo7} alt="client logo"/>
+        <img src={clientLogo6} alt="client logo"/>
+        <img src={clientLogo3} alt="client logo"/>
+        <img src={clientLogo2} alt="client logo"/>
       </div>
 
       <div className="about-gridx-container">

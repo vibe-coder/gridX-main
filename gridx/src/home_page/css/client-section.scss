@@ -64,3 +64,25 @@
     }
   }
 }
+
+@media (min-width:1200px){
+  .client-container{
+    
+
+    .client-company-container{
+      padding: 60px 140px;
+      display: flex;
+      flex-wrap: wrap;
+
+      img{
+        width: 200px;
+        margin: 0 40px;
+        opacity: 0.6;
+      }
+    }
+
+    .about-gridx-container{
+      
+    }
+  }
+}

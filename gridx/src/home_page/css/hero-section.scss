@@ -77,6 +77,44 @@
     display: flex;
     flex-direction: row;
     padding: 0 100px;
-    background-color: red;
+    align-items: flex-start;
+    margin-top: 0;
+
+    .left-column{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 50%;
+      
+      
+
+      h1{
+        font-size: 5rem;
+        line-height: 5rem;
+        font-weight: 900;
+      }
+
+      p{
+        font-size: 1.3rem;
+        width: 65%;
+        line-height: 1.6rem;
+      }
+
+      button{
+        padding: 16px 35px;
+        cursor: pointer;
+      }
+    }
+
+    .right-column{
+      height: 100vh;
+      width: 50%;
+
+      img{
+        width: 600px;
+      }
+      
+    }
   }
 }
