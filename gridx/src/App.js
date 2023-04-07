@@ -2,43 +2,235 @@ import './App.scss';
 import {Link, Routes, Route} from "react-router-dom"
 import gridxLogo from "./icons/GRIDX-LOGO-07.svg"
 import HomeContainer from './home_page/HomeContainer';
+import { useState } from 'react';
 
 function App() {
 
-  const menuContainer = document.querySelector('menu-container')
-  
-  const menuButton = document.getElementById('menu-button')
+  const [isOpen, setIsOpen] = useState(false);
 
-  menuButton.onclick = () => {
-    menuContainer.style.visibility = 'visible'
-  }
-  
   
 
   return (
     <div className="App">
+      
       <div className="header-wrapper">
         <img className='gridx-logo' src={gridxLogo} alt="gridx logo"/>
         
-        <div onClick={} role='button' id='menu-button' className="menu-icon">
-          <input type="checkbox" id="menu_checkbox"/>
+        <div role='button' id='menu-button' className="menu-icon">
+          <input onClick={() => setIsOpen(!isOpen)} type="checkbox" id="menu_checkbox"/>
           <label for="menu_checkbox">
             <div></div>
             <div></div>
             <div></div>
           </label>
         </div>
-
       </div>
+
+      {/* NAV MENU CONTAINER */}
       
-      <div className='menu-container'>
-        <p>Biography is sometimes regarded as a branch of history, and earlier biographical writings—such as the 15th-century Mémoires of the French councellor of state, Philippe de Commynes, or George Cavendish’s 16th-century life of Thomas Cardinal Wolsey—have often been treated as historical material rather than as literary works in their own right. Some entries in ancient Chinese chronicles included biographical sketches; imbedded in the Roman historian Tacitus’s Annals is the most famous biography of the emperor Tiberius; conversely, Sir Winston Churchill’s magnificent life of his ancestor John Churchill, first duke of Marlborough, can be read as a history (written from a special point of view) of Britain and much of Europe during the War of the Spanish Succession (1701–14). Yet there is general recognition today that history and biography are quite distinct forms of literature. History usually deals in generalizations about a period of time (for example, the Renaissance), about a group of people in time (the English colonies in North America), about an institution (monasticism during the Middle Ages). Biography more typically focuses upon a single human being and deals in the particulars of that person’s life.
+     {isOpen && <div className='nav-container'>
+        <ul className="menu-wrapper">
 
-Both biography and history, however, are often concerned with the past, and it is in the hunting down, evaluating, and selection of sources that they are akin. In this sense biography can be regarded as a craft rather than an art: techniques of research and general rules for testing evidence can be learned by anyone and thus need involve comparatively little of that personal commitment associated with art.
+            {/* XENON */}
 
-A biographer in pursuit of an individual long dead is usually hampered by a lack of sources: it is often impossible to check or verify what written evidence there is; there are no witnesses to cross-examine. No method has yet been developed by which to overcome such problems. Each life, however, presents its own opportunities as well as specific difficulties to the biographer: the ingenuity with which the biographer handles gaps in the record—by providing information, for example, about the age that casts light upon the subject—has much to do with the quality of the resulting work. James Boswell knew comparatively little about Samuel Johnson’s earlier years; it is one of the greatnesses of his Life of Samuel Johnson LL.D. (1791) that he succeeded, without inventing matter or deceiving the reader, in giving the sense of a life progressively unfolding. Another masterpiece of reconstruction in the face of little evidence is A.J.A. Symons’ biography of the English author and eccentric Frederick William Rolfe, The Quest for Corvo (1934). A further difficulty is the unreliability of most collections of papers, letters, and other memorabilia edited before the 20th century. Not only did editors feel free to omit and transpose materials, but sometimes the authors of documents revised their personal writings for the benefit of posterity, often falsifying the record and presenting their biographers with a difficult situation when the originals were no longer extant.
-The biographer writing the life of a person recently dead is often faced with the opposite problem: an abundance of living witnesses and a plethora of materials, which include the subject’s papers and letters, sometimes transcriptions of telephone conversations and conferences, as well as the record of interviews granted to the biographer by the subject’s friends and associates. Frank Friedel, for example, in creating a biography of the U.S. president Franklin D. Roosevelt, had to wrestle with something like 40 tons of paper. But finally, when writing the life of any person, whether long or recently dead, the biographer’s chief responsibility is vigorously to test the authenticity of the collected materials by whatever rules and techniques are available. When the subject of a biography is still alive and a contributor to the work, the biographer’s task is to examine the subject’s perspective against multiple, even contradictory sources.</p>
-      </div>
+          <div className="menu-container">
+            <h2>XENON</h2>
+            <ul className='link-list'>
+              <li> 
+                <Link to="/" className='link'>
+                  <h4>Platform</h4>
+                  <p> Interface to all distributed energy resources</p>
+                </Link>                
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Getaway</h4>
+                  <p>Edge computing mode of energy</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Integration</h4>
+                  <p>Services and products that work with Xenon</p>
+                </Link> 
+              </li>
+            </ul>
+          </div>
+
+          {/* USE CASES */}
+
+          <div className="menu-container">
+            <h2>USE CASES</h2>
+            <ul className='link-list'>
+              <li> 
+                <Link to="/" className='link'>
+                  <h4>Home Energy Management</h4>
+                  <p>Bring smart energy management to your <br/> customers</p>
+                </Link>               
+              </li>
+
+              <li>
+              <Link to="/" className='link'>
+                  <h4>EV Charging</h4>
+                  <p>Charge EVs smarter, cheaper and greener</p>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* MODULE */}
+
+          <div className="menu-container">
+            <h2>MODULES</h2>
+            <h3>OPTIMIZE</h3>
+            <ul className='link-list'>
+              <li> 
+                <Link to="/" className='link'>
+                  <h4>Grid Protector </h4>
+                  <p>Avoide overloads and maximize charging speed</p>
+                </Link>              
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Energy Optimizer</h4>
+                  <p>Reduce operating costs and emissions</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Peak Shaver</h4>
+                  <p>Minimize energy grid fees by locally reducing peak <br/> loads</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Tariff Timer</h4>
+                  <p>Minimize energy costs with varying energy <br/> prices</p>
+                </Link> 
+              </li>
+
+              <h3>ACCESS</h3>
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Web App</h4>
+                  <p>Give users full control and transparency over <br/>their energy</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Mobile App</h4>
+                  <p>Provide users with energy infromation on the <br/> go</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>API</h4>
+                  <p>Build custom solutions on top of XENON</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Cloud Connector</h4>
+                  <p>Easily add Integrations to your existing <br/> systems</p>
+                </Link> 
+              </li>
+
+              <h3>EXTEND</h3>
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Energy Billing</h4>
+                  <p>Seamlessly quthorize and invoice charging <br/> processes</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Diagnostics</h4>
+                  <p>Resolve issues without onsite technicians</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Moulti-Energy Optimizer</h4>
+                  <p>Aggregate and optimize multiple systems</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Energy Community</h4>
+                  <p>Enable energy trading within a user group</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>Virtual Power Plant</h4>
+                  <p>Trade the flexibility and energy of connected <br/> DERs</p>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h4>V2G/V2H</h4>
+                  <p>Leverage the flexibility of EVs</p>
+                </Link> 
+              </li>
+
+              {/* COMPANY */}
+
+              <h2>COMPANY</h2>
+              <h3>ABOUT US</h3>
+              <li>
+                <Link to="/" className='link'>
+                  <h5>About</h5>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h5>Careers</h5>
+                </Link> 
+              </li>
+
+
+              <li>
+                <Link to="/" className='link'>
+                  <h5>Events</h5>
+                </Link> 
+              </li>
+
+              <h3>RESOURCES</h3>
+              <li>
+                <Link to="/" className='link'>
+                  <h5>Blog</h5>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h5>Press</h5>
+                </Link> 
+              </li>
+
+              <li>
+                <Link to="/" className='link'>
+                  <h5>Downloads</h5>
+                </Link> 
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>}
 
       
 
