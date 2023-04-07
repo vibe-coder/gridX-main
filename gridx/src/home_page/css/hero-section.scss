@@ -70,14 +70,13 @@
   }
 }
 
-@media (min-width: 768px) {
-  
-}
-
-@media (min-width: 992px) {
-  
-}
 
 @media (min-width: 1200px) {
-  
+  .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    background-color: red;
+  }
 }
