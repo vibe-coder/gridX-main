@@ -79,14 +79,12 @@ function Footer() {
         <br/>
         <p><strong>Switch Language</strong></p>
         <button> <img src={britain} alt="/"/>English</button>
+
         <div className="social-media-icons">
           <img src={linkedin} alt="/"/>
           <img src={twitter} alt="/"/>
           <img src={instagram} alt="/"/>
         </div>
-        
-
-
       </div>
     </div>
   )
