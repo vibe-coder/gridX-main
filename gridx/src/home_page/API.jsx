@@ -12,11 +12,15 @@ export default function API(){
         <a href="/">Read the docs ›</a>
 
         <div className="sub-first-wrapper">
-          <h3>Unified</h3>
-          <p>The API is well documented and provides clear and consistent data structures.</p>
-
+          <div>
+            <h3>Unified</h3>
+            <p>The API is well documented and provides clear and consistent data structures.</p>
+          </div>
+          
+          <div>
           <h3>RESTful</h3>
           <p>All endpoints adhere to REST principles, making integration quick and seamless.</p>
+          </div>
         </div>
       </div>
 

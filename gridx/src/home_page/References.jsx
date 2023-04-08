@@ -21,6 +21,9 @@ export default function References(){
         <a href="www.gridx.ai">See all references</a>
       </div>
 
+
+      
+
       <div className="second-column">
         <div className="company-references">
         <h3>E-Mobility</h3>

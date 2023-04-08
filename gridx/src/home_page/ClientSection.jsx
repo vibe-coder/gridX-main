@@ -28,36 +28,35 @@ export default function ClientSection(){
         <img src={clientLogo2} alt="client logo"/>
       </div>
 
-      <div className="about-gridx-container">
-        <h4 className="about-header">WHY XENON?</h4>
-        <h3 className="about-subheader">Focus on what's important</h3>
+      <div className="focus-gridx-container">
+        <h4 className="focus-header">WHY XENON?</h4>
+        <h3 className="focus-subheader">Focus on what's important</h3>
 
-        <div className="time-wrapper">
-          <img src={time} alt="time icon" />
-          <h3>Save thousands of developers hours</h3>
-          <p>An abstraction layer for DERs allows developers to <strong>focus</strong> on their <strong>actual solution</strong> rather than the technical details.</p>
+        <div className="focus-container">
+          <div className="focus-wrapper">
+            <img src={time} alt="time icon" />
+            <h3>Save thousands of developers hours</h3>
+            <p>An abstraction layer for DERs allows developers to <strong>focus</strong> on their <strong>actual solution</strong> rather than the technical details.</p>
+          </div>
+
+          <div className="focus-wrapper">
+            <img src={speed} alt="time icon" />
+            <h3>Get to market in no time</h3>
+            <p>Easily tap into new markets with an average of just <strong>32 days</strong> between purchase and pilot project.</p>
+          </div>
+
+          <div className="focus-wrapper">
+            <img src={star} alt="time icon" />
+            <h3>Stay at the forefront of innovation</h3>
+            <p>We release and roll out <strong>updates every week</strong> to constantly improve our platform and future-proof your operations.</p>
+          </div>
+
+          <div className="focus-wrapper">
+            <img src={tag} alt="time icon" />
+            <h3>Scale products, add customer value</h3>
+            <p>XENON supports endless use cases and has proven its scalability with <strong>more than 10,000 devices in the field.</strong></p>
+          </div>
         </div>
-
-        <div className="time-wrapper">
-          <img src={speed} alt="time icon" />
-          <h3>Get to market in no time</h3>
-          <p>Easily tap into new markets with an average of just <strong>32 days</strong> between purchase and pilot project.</p>
-        </div>
-
-        <div className="time-wrapper">
-          <img src={star} alt="time icon" />
-          <h3>Stay at the forefront of innovation</h3>
-          <p>We release and roll out <strong>updates every week</strong> to constantly improve our platform and future-proof your operations.</p>
-        </div>
-
-        <div className="time-wrapper">
-          <img src={tag} alt="time icon" />
-          <h3>Scale products, add customer value</h3>
-          <p>XENON supports endless use cases and has proven its scalability with <strong>more than 10,000 devices in the field.</strong></p>
-        </div>
-
-
-
       </div>
     </div>
   )

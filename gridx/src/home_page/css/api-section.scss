@@ -80,3 +80,35 @@
     }
   }
 }
+
+@media (min-width:1200px){
+  .api-container{
+    height: 100vh;
+    padding: 120px 200px;
+    display: flex;
+    column-gap: 50px;
+
+    .first-wrapper{
+      h4{
+        font-size: 1.5rem;
+      }
+  
+      h3{
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 50px;
+        width: 700px;
+      }
+
+      p{
+        font-size: 1.1rem;
+        width: 500px;
+        color: white;
+      }
+
+      .sub-first-wrapper{
+        display: flex;
+      }
+    }
+  }
+}

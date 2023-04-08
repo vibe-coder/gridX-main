@@ -21,7 +21,7 @@
       }
     }
 
-    .about-gridx-container{
+    .focus-gridx-container{
       display: flex;
       flex-direction: column;
       margin-top: 90px;
@@ -38,7 +38,7 @@
         font-size: 1.5rem;
       }
 
-      .time-wrapper{
+      .focus-wrapper{
         display: flex;
         flex-direction: column;
         margin-top: 40px;
@@ -67,22 +67,53 @@
 
 @media (min-width:1200px){
   .client-container{
-    
+    padding: 120px 200px;
+    height: 90vh;
 
     .client-company-container{
-      padding: 60px 140px;
       display: flex;
       flex-wrap: wrap;
+      margin-bottom: 160px;
+      column-gap: 90px;
 
       img{
         width: 200px;
-        margin: 0 40px;
-        opacity: 0.6;
+        opacity: 0.4;
+        
       }
     }
 
-    .about-gridx-container{
+    .focus-gridx-container{
+      h4{
+        font-size: 1.5rem;
+      }
+
+      h3{
+        font-size: 3rem;
+        font-weight: 500;
+      }
       
+      .focus-container{
+        display: flex;
+        column-gap: 30px;
+        margin-top: 20px;
+
+        .focus-wrapper{
+
+          img{
+            width: 50px;
+          }
+
+          h3{
+            font-size: 1.7rem;
+          }
+
+          p{
+            font-size: 1.1rem;
+          }
+        }
+
+      }
     }
   }
 }
