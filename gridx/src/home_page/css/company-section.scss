@@ -44,3 +44,32 @@
     font-size: 1.2rem;
   }
 }
+
+@media (min-width:1200px){
+  .company-container{
+    padding: 120px 200px;
+    height: 50vh;
+
+    h4{
+      font-size: 1.5rem;
+    }
+
+    h3{
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 50px;
+      width: 600px;
+    }
+    
+    img{
+      width: 600px;
+    }
+
+    
+    p{
+      font-size: 1.1rem;
+      width: 600px;
+      margin-bottom: 70px;
+    }
+  }
+}
