@@ -232,24 +232,10 @@ function App() {
         </ul>
       </div>}
 
-      
-
-      {/* <nav className='nav-wrapper'>
-
-        MENU WRAPPER FOR MOBILE VIEW
 
 
-
-
-
-
-
-
-
-
-
-        LINK WRAPPER FOR DESKTOP VIEW
-
+      <nav className='link-container'>
+        <img className='gridx-logo' src={gridxLogo} alt="gridx logo"/>
         <ul className="link-wrapper">
           <li><Link className="link" to="/">XENON</Link></li>
           <li><Link className="link" to="/">use cases</Link></li>
@@ -257,8 +243,7 @@ function App() {
           <li><Link className="link" to="/">company</Link></li>
           <li><Link className="demo-link" to="/">book a demo</Link></li>
         </ul>
-      </nav> */}
-
+      </nav>
 
       <Routes>
         <Route path='/' element={<HomeContainer/>} />
