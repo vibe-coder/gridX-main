@@ -234,30 +234,47 @@
 
     .link-container{
       visibility: visible;
-      position: absolute;
-      background-color: red;
+      position: fixed;
+      z-index: 1000000;
+      background-color: white;
+      height: 130px;
+      padding: 0 200px;
       top: 0;
       left: 0;
       right: 0;
       display: flex;
+      justify-content: space-between;
+      align-items: center;
 
       img{
-        width: 90px;
+        width: 110px;
       }
 
       .link-wrapper{
         display: flex;
         list-style: none;
-        column-gap: 30px;
+        column-gap: 80px;
+        font-size: 1.1rem;
+        align-items: center;
 
         .link{
           text-decoration: none;
           color: black;
         }
+      }
 
-        .demo-link{
+      .demo-button{
+        height: 50px;
+        width: 160px;
+        font-size: 1.2rem;
+        background-color: #0bb7b4;
+        border: none;
+        cursor: pointer;
+
+        .demo-link-button{
           text-decoration: none;
-          color: black;
+          font-family: Mark Pro;
+          color: white;
         }
       }
       

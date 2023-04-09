@@ -238,11 +238,11 @@ function App() {
         <img className='gridx-logo' src={gridxLogo} alt="gridx logo"/>
         <ul className="link-wrapper">
           <li><Link className="link" to="/">XENON</Link></li>
-          <li><Link className="link" to="/">use cases</Link></li>
-          <li><Link className="link" to="/">modules</Link></li>
-          <li><Link className="link" to="/">company</Link></li>
-          <li><Link className="demo-link" to="/">book a demo</Link></li>
+          <li><Link className="link" to="/">Use cases</Link></li>
+          <li><Link className="link" to="/">Modules</Link></li>
+          <li><Link className="link" to="/">Company</Link></li>
         </ul>
+        <button className='demo-button'><Link className="demo-link-button" to="/">book a demo</Link></button>
       </nav>
 
       <Routes>

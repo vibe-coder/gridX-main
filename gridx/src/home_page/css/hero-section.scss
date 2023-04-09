@@ -79,7 +79,7 @@
     padding: 0 200px;
     align-items: flex-start;
     margin-top: 0;
-    padding-top: 30px;
+    padding-top: 50px;
 
     .left-column{
       background-color: white;
@@ -91,15 +91,16 @@
       
 
       h1{
-        font-size: 5rem;
+        font-size: 4.5rem;
         line-height: 5rem;
         font-weight: 900;
       }
 
       p{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         width: 65%;
         line-height: 1.6rem;
+        margin-bottom: 100px;
       }
 
       button{
@@ -111,9 +112,13 @@
     .right-column{
       height: 100vh;
       width: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 30px;
 
       img{
-        width: 600px;
+        width: 550px;
       }
       
     }
