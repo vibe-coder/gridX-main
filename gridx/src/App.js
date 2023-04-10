@@ -8,6 +8,20 @@ import gatewayIcon from "./icons/gateway-icon.svg"
 import integrationsIcon from "./icons/integrations-icon.svg"
 import homeEnergyIcon from "./icons/home-energy-icon.svg"
 import evCharging from "./icons/ev-charging.svg"
+import gridIcon from "./icons/grid-icon.svg"
+import optimizerIcon from "./icons/optimizer icon.svg"
+import peakIcon from "./icons/peak-icon.svg"
+import tariffIcon from "./icons/tariff-icon.svg"
+import webIcon from "./icons/webapp-icon.svg"
+import mobileIcon from "./icons/mobileapp-icon.svg"
+import apiIcon from "./icons/API-icon.svg"
+import cloudIcon from "./icons/cloud-icoon.svg"
+import billingIcon from "./icons/billing-icon.svg"
+import diagnosticsIcon from "./icons/diagnostics-icon.svg"
+import multiIcon from "./icons/multi-icon.svg"
+import communityIcon from "./icons/community-icon.svg"
+import virtualIcon from "./icons/virtual-icon.svg"
+import v2gIcon from "./icons/v2g-icon.svg"
 
 function App() {
 
@@ -315,6 +329,251 @@ function App() {
                   <p>Learn how companies succeed with XENON</p>
                 </Link>
             </div>            
+          </div>
+        </div>
+      </div>
+
+      <div className='modules-menu-container'>
+        <div className='modules-menu-wrapper'>
+          <div className='left-wrapper'>
+            <h3>OPTIMIZE</h3>
+            
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={gridIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Grid Protector</h3>
+                  <p>Avoid overloads and maximize charging speed</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={optimizerIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Energy Optimizer</h3>
+                  <p>Reduce operating costs and emissions</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={peakIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Peak Shaver</h3>
+                  <p>Minimize grid fees by locally reducing peak loads </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={tariffIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Tariff Timer</h3>
+                  <p>Minimize energy costs with varying energy prices</p>
+                </div>
+              </div>
+            </Link>
+
+            
+          </div>
+
+          <div className='center-wrapper'>
+            <h3>ACCESS</h3>
+            
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={webIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Web App</h3>
+                  <p>Give users full control  and transparency over their energy</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={mobileIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Mobile App</h3>
+                  <p>Provide users with energy infromation on the go</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={apiIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>API</h3>
+                  <p>Build custom solutions on top of XENON</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={cloudIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Cloud Connector</h3>
+                  <p>Easily add integrations to your existing systems</p>
+                </div>
+              </div>
+            </Link>
+
+            
+          </div>
+
+          <div className='right-wrapper'>
+            <h3>EXTEND</h3>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={billingIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Energy Billing</h3>
+                  <p>Seamlessly authorize and invoice charging processes</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={diagnosticsIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Diagnostics</h3>
+                  <p>Resolve issues without onsite technicians</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={multiIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Multi-Energy Optimizer</h3>
+                  <p>Aggregate and optimize multiple systems </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={communityIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Energy Community</h3>
+                  <p>Enable energy trading within a user group</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>Virtual Power Plant</h3>
+                  <p>Trade the flexibility and energy of connected DERs</p>
+                </div>
+              </div>
+            </Link>
+
+            <Link className='modules-link'>
+              <div className='modules-link-wrapper'>
+                <div className='modules-img-wrapper'><img src={v2gIcon} alt='/'/></div>
+                <div className='modules-text-wrapper'>
+                  <h3>V2G/V2H</h3>
+                  <p>Leverage the flexibility of EVs</p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className='company-menu-container'>
+        <div className='company-menu-wrapper'>
+          <div className='company-top'>
+            <div className='company-left'>
+            <h3>ABOUT US</h3>
+              <Link className='company-link'>
+                <div className='company-link-wrapper'>
+                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-text-wrapper'>
+                    <h3>About</h3>
+                  </div>
+                </div>
+              </Link>
+
+              <Link className='company-link'>
+                <div className='company-link-wrapper'>
+                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-text-wrapper'>
+                    <h3>Careers</h3>
+                  </div>
+                </div>
+              </Link>
+
+              <Link className='company-link'>
+                <div className='company-link-wrapper'>
+                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-text-wrapper'>
+                    <h3>Events</h3>
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            <div className='company-right'> 
+            <h3>RESEOURCES</h3>
+              <Link className='company-link'>
+                <div className='company-link-wrapper'>
+                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-text-wrapper'>
+                    <h3>Blog</h3>
+                  </div>
+                </div>
+              </Link>
+
+              <Link className='company-link'>
+                <div className='company-link-wrapper'>
+                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-text-wrapper'>
+                    <h3>Knowledge</h3>
+                  </div>
+                </div>
+              </Link>
+
+              <Link className='company-link'>
+                <div className='company-link-wrapper'>
+                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-text-wrapper'>
+                    <h3>Press</h3>
+                  </div>
+                </div>
+              </Link>
+
+              <Link className='company-link'>
+                <div className='company-link-wrapper'>
+                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-text-wrapper'>
+                    <h3>Downloads</h3>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className='company-bottom'>
+            <h4>Latest posts from our blog</h4>
+            <div>
+              <a href='/'>Moving abroad: The challenges and opportunities of relocating to Germany</a>
+              <br/>
+              <a href='/'>Energy Consulting: Taming the digital beast</a>
+              <br/>
+              <a href='/'>Knowledge is power: Scaling customer solutions with energy diagnostics</a>
+            </div>
           </div>
         </div>
       </div>
