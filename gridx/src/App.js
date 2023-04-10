@@ -22,6 +22,9 @@ import multiIcon from "./icons/multi-icon.svg"
 import communityIcon from "./icons/community-icon.svg"
 import virtualIcon from "./icons/virtual-icon.svg"
 import v2gIcon from "./icons/v2g-icon.svg"
+import aboutIcon from "./icons/about-icon.svg"
+import careresIcon from "./icons/careers-icon.svg"
+import eventsIcon from "./icons/events-icon.svg"
 
 function App() {
 
@@ -500,7 +503,7 @@ function App() {
             <h3>ABOUT US</h3>
               <Link className='company-link'>
                 <div className='company-link-wrapper'>
-                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-img-wrapper'><img src={aboutIcon} alt='/'/></div>
                   <div className='company-text-wrapper'>
                     <h3>About</h3>
                   </div>
