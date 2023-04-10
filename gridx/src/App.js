@@ -568,7 +568,7 @@ function App() {
 
               <Link className='company-link'>
                 <div className='company-link-wrapper'>
-                  <div className='company-img-wrapper'><img src={virtualIcon} alt='/'/></div>
+                  <div className='company-img-wrapper'><img src={downloadsIcon} alt='/'/></div>
                   <div className='company-text-wrapper'>
                     <h3>Downloads</h3>
                   </div>
