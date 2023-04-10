@@ -3,6 +3,11 @@ import {Link, Routes, Route} from "react-router-dom"
 import gridxLogo from "./icons/GRIDX-LOGO-07.svg"
 import HomeContainer from './home_page/HomeContainer';
 import { useState } from 'react';
+import platformIcon from "./icons/platform-icon.svg"
+import gatewayIcon from "./icons/gateway-icon.svg"
+import integrationsIcon from "./icons/integrations-icon.svg"
+import homeEnergyIcon from "./icons/home-energy-icon.svg"
+import evCharging from "./icons/ev-charging.svg"
 
 function App() {
 
@@ -244,6 +249,75 @@ function App() {
         </ul>
         <button className='demo-button'><Link className="demo-link-button" to="/">book a demo</Link></button>
       </nav>
+
+      {/* XENONO MENU */}
+
+
+      <div className='xenon-menu-container'>
+        <div className='xenon-menu-wrapper'>
+          
+          <div className='menu-container'>
+            <div className='img-container'><img src={platformIcon} alt='/'/></div>
+            <div className='text-container'>
+              <h3>Platform</h3>
+              <p>Interface to all distributed energy reseources</p>
+            </div>            
+          </div>
+
+          <div className='menu-container'>
+            <div className='img-container'><img src={gatewayIcon} alt='/'/></div>
+            <div className='text-container'>
+              <h3>Gateway</h3>
+              <p>Interface to all distributed energy reseources</p>
+            </div>            
+          </div>
+          <div className='menu-container'>
+            <div className='img-container'><h3><img src={integrationsIcon} alt='/'/></h3></div>
+            <div className='text-container'>
+              <Link>
+                <h3>Integrations</h3>
+                <p>Interface to all distributed energy reseources</p>
+              </Link>
+            </div>            
+          </div>
+        </div>
+      </div>
+
+      {/* USE CASES MENU */}
+
+      <div className='usecases-menu-container'>
+        <div className='usecases-menu-wrapper'>
+          
+            <div className='menu-container'>
+            <Link className='menu-link'>
+              <div className='img-container'><img src={homeEnergyIcon} alt='/'/></div>
+                <div className='text-container'>
+                  <h3>Home Energy Management</h3>
+                  <p>Bring smart energy management to your customers</p>
+              </div> 
+            </Link>
+          </div>
+
+          <div className='menu-container'>
+            <Link className='menu-link'>
+              <div className='img-container'><img src={evCharging} alt='/'/></div>
+                <div className='text-container'>
+                  <h3>EV Charging</h3>
+                  <p>Charge EVs smarter, cheaper and greener</p>
+              </div>
+            </Link>
+          </div>
+
+          <div className='sub-menu-container'>
+              <div className='text-container'>
+                <Link className='text-link'>
+                  <h3>Success stories</h3>
+                  <p>Learn how companies succeed with XENON</p>
+                </Link>
+            </div>            
+          </div>
+        </div>
+      </div>
 
       <Routes>
         <Route path='/' element={<HomeContainer/>} />
