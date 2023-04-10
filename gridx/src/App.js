@@ -25,6 +25,14 @@ import v2gIcon from "./icons/v2g-icon.svg"
 import aboutIcon from "./icons/about-icon.svg"
 import careresIcon from "./icons/careers-icon.svg"
 import eventsIcon from "./icons/events-icon.svg"
+import blogIcon from "./icons/blog-icon.svg"
+import knowledgeIcon from "./icons/knowledge-icon.svg"
+import pressIcon from "./icons/press-icon.svg"
+import downloadsIcon from "./icons/downloads-icon.svg"
+
+
+
+
 
 function App() {
 
