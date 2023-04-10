@@ -541,7 +541,7 @@ function App() {
             <h3>RESEOURCES</h3>
               <Link className='company-link'>
                 <div className='company-link-wrapper'>
-                  <div className='company-img-wrapper'><img src={blogIcon} alt='/'/></div>
+                  <div className='company-img-wrapper'><img className='blog-icon' src={blogIcon} alt='/'/></div>
                   <div className='company-text-wrapper'>
                     <h3>Blog</h3>
                   </div>
