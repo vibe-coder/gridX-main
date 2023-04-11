@@ -282,7 +282,6 @@
         align-items: center;
 
         .links{
-          background-color: red;
           height: 130px;
           display: flex;
           align-items: center;
@@ -294,7 +293,8 @@
           color: black;
           transition: 0.2s ease-in-out;
           font-weight: 500;
-          height: 90px;
+          display: flex;
+          align-items: center;
         }
 
         .link:hover{
