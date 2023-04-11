@@ -259,7 +259,7 @@
     .link-container{
       visibility: visible;
       position: fixed;
-      z-index: 1000000;
+      z-index: 10000000000;
       background-color: white;
       height: 130px;
       padding: 0 200px;
@@ -281,11 +281,20 @@
         font-size: 1.1rem;
         align-items: center;
 
+        .links{
+          background-color: red;
+          height: 130px;
+          display: flex;
+          align-items: center;
+
+        }
+
         .link{
           text-decoration: none;
           color: black;
-          transition: 0.3s ease-in-out;
+          transition: 0.2s ease-in-out;
           font-weight: 500;
+          height: 90px;
         }
 
         .link:hover{
@@ -313,7 +322,7 @@
     .xenon-menu-container{
       visibility: visible;
       position: fixed;
-      top: 130px;
+      top: 0px;
       left: 0;
       right: 0;
       height: 750px;
@@ -322,6 +331,7 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
+      padding-top: 150px;
 
       .xenon-menu-wrapper{
         width: 330px;
@@ -379,7 +389,7 @@
     .usecases-menu-container{
       visibility: visible;
       position: fixed;
-      top: 130px;
+      top: 00px;
       left: 0;
       right: 0;
       height: 750px;
@@ -388,6 +398,7 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
+      padding-top: 150px;
 
       .usecases-menu-wrapper{
         width: 420px;
@@ -413,8 +424,11 @@
             text-decoration: none;
 
             .img-container{
+              display: flex;
+              align-items: center;
+              
               img{
-                width: 50px;
+                width: 55px;
               }
             }
   
@@ -474,7 +488,7 @@
     .modules-menu-container{
       visibility: visible;
       position: fixed;
-      top: 130px;
+      top: 0px;
       left: 0;
       right: 0;
       height: 750px;
@@ -483,6 +497,7 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
+      padding-top: 150px;
 
 
       .modules-menu-wrapper{
@@ -632,7 +647,7 @@
     .company-menu-container{
       visibility: visible;
       position: fixed;
-      top: 130px;
+      top: 0px;
       left: 0;
       right: 0;
       height: 750px;
@@ -641,6 +656,7 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
+      padding-top: 150px;
 
       .company-menu-wrapper{
         background-color: white;
