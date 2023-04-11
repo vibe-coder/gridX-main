@@ -92,7 +92,7 @@
 
       h1{
         font-size: 4.5rem;
-        line-height: 5rem;
+        line-height: 4.5rem;
         font-weight: 900;
       }
 
@@ -103,10 +103,22 @@
         margin-bottom: 100px;
       }
 
-      button{
-        padding: 16px 35px;
-        cursor: pointer;
+      .button-wrapper{
+        display: flex;
+        align-items: center;
+        .demo-button{
+          padding: 16px 35px;
+          cursor: pointer;
+          margin-right: 30px;
+        }
+        .sales-button{
+          padding: 0 0;
+          height: 20px;
+          cursor: pointer;
+        }
       }
+
+
     }
 
     .right-column{
