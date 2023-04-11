@@ -169,6 +169,18 @@
         font-size: 1.1rem;
         margin-bottom: 5px;
       }
+
+      .social-media-icons{
+        display: flex;
+        width: 113px;
+        justify-content: space-between;
+
+        img{
+          margin: 0;
+          padding: 0;
+          cursor: pointer;
+        }
+      }
     }
   }
 }
