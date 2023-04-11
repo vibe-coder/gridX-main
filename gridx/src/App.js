@@ -313,7 +313,7 @@ function App() {
       <div className='usecases-menu-container'>
         <div className='usecases-menu-wrapper'>
           
-            <div className='menu-container'>
+          <div className='menu-container'>
             <Link className='menu-link'>
               <div className='img-container'><img src={homeEnergyIcon} alt='/'/></div>
                 <div className='text-container'>
@@ -388,8 +388,6 @@ function App() {
                 </div>
               </div>
             </Link>
-
-            
           </div>
 
           <div className='center-wrapper'>
