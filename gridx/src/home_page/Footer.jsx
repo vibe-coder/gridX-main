@@ -77,7 +77,7 @@ function Footer() {
         <a href='/'>Terms and conditions</a>
         <a href='/'>Terms of use</a>
         <br/>
-        <p><strong>Switch Language</strong></p>
+        <p className='switch'><strong>Switch Language</strong></p>
         <button> <img src={britain} alt="/"/>English</button>
 
         <div className="social-media-icons">

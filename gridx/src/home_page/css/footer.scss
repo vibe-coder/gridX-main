@@ -103,13 +103,13 @@
 @media (min-width:1200px){
   .footer-container{
     padding: 0 200px;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    height: 75vh;
+    height: 80vh;
 
     .row-one{
       align-items: flex-start;
@@ -137,7 +137,7 @@
 
       a{
         font-size: 1.1rem;
-        margin-bottom: 10px;
+        margin-bottom: 3px;
       }
     }
 
@@ -152,7 +152,7 @@
 
       a{
         font-size: 1.1rem;
-        margin-bottom: 10px;
+        margin-bottom: 3px;
       }
     }
 
@@ -167,7 +167,11 @@
 
       a{
         font-size: 1.1rem;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
+      }
+
+      .switch{
+        margin-bottom: 9px;
       }
 
       .social-media-icons{
