@@ -263,6 +263,9 @@ function App() {
       </div>}
 
 
+      {/* DESKTOP VIEW MENU LINKS+ */}
+
+
 
       <nav className='link-container'>
         <img className='gridx-logo' src={gridxLogo} alt="gridx logo"/>
@@ -274,6 +277,7 @@ function App() {
         </ul>
         <button className='demo-button'><Link className="demo-link-button" to="/">book a demo</Link></button>
       </nav>
+
 
       {/* XENONO MENU */}
 
@@ -343,6 +347,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* MODULELS MENU */}
 
       <div className='modules-menu-container'>
         <div className='modules-menu-wrapper'>
@@ -432,8 +438,6 @@ function App() {
                 </div>
               </div>
             </Link>
-
-            
           </div>
 
           <div className='right-wrapper'>
@@ -501,6 +505,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* COMPANY MENU */}
 
       <div className='company-menu-container'>
         <div className='company-menu-wrapper'>
