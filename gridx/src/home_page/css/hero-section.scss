@@ -80,9 +80,9 @@
     align-items: flex-start;
     margin-top: 0;
     padding-top: 50px;
+    background-color: rgba($color: #ffffff, $alpha: 0.6);
 
     .left-column{
-      background-color: white;
       display: flex;
       flex-direction: column;
       height: 100vh;
