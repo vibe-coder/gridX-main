@@ -38,6 +38,8 @@ function App() {
 
   const [isOpen, setIsOpen] = useState(false);
 
+  const [isXenonHover, setIsXenonHover] = useState(false)
+
   
 
   return (
@@ -270,7 +272,7 @@ function App() {
       <nav className='link-container'>
         <img className='gridx-logo' src={gridxLogo} alt="gridx logo"/>
         <ul className="link-wrapper">
-          <li><Link className="link" to="/">XENON</Link></li>
+          <li><Link onMouseOver={() => setIsXenonHover(!isXenonHover)} onMouseOut={() => setIsXenonHover(isXenonHover)} className="link" to="/">XENON</Link></li>
           <li><Link className="link" to="/">Use cases</Link></li>
           <li><Link className="link" to="/">Modules</Link></li>
           <li><Link className="link" to="/">Company</Link></li>
@@ -282,35 +284,41 @@ function App() {
       {/* XENONO MENU */}
 
 
-      <div className='xenon-menu-container'>
+      {isXenonHover && <div className='xenon-menu-container'>
         <div className='xenon-menu-wrapper'>
           
           <div className='menu-container'>
-            <div className='img-container'><img src={platformIcon} alt='/'/></div>
-            <div className='text-container'>
-              <h3>Platform</h3>
-              <p>Interface to all distributed energy reseources</p>
-            </div>            
+            <Link className='xenon-link'>
+              <div className='img-container'><img src={platformIcon} alt='/'/></div>
+              <div className='text-container'>
+                <h3>Platform</h3>
+                <p>Interface to all distributed energy reseources</p>
+              </div>   
+            </Link>         
           </div>
 
           <div className='menu-container'>
-            <div className='img-container'><img src={gatewayIcon} alt='/'/></div>
-            <div className='text-container'>
-              <h3>Gateway</h3>
-              <p>Interface to all distributed energy reseources</p>
-            </div>            
-          </div>
-          <div className='menu-container'>
-            <div className='img-container'><h3><img src={integrationsIcon} alt='/'/></h3></div>
-            <div className='text-container'>
-              <Link>
-                <h3>Integrations</h3>
+            <Link className='xenon-link'>
+              <div className='img-container'><img src={gatewayIcon} alt='/'/></div>
+              <div className='text-container'>
+                <h3>Gateway</h3>
                 <p>Interface to all distributed energy reseources</p>
-              </Link>
-            </div>            
+              </div>  
+            </Link>          
           </div>
+
+          <div className='menu-container'>
+            <Link className='xenon-link'>
+              <div className='img-container'><img src={integrationsIcon} alt='/'/></div>
+              <div className='text-container'>
+                <h3>Integrations</h3>
+                <p>Services and products that work with XENON</p>
+              </div>  
+            </Link>          
+          </div>
+
         </div>
-      </div>
+      </div>}
 
       {/* USE CASES MENU */}
 
