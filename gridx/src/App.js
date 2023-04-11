@@ -38,8 +38,13 @@ function App() {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const [isXenonHover, setIsXenonHover] = useState(false)
+  const [isXenon, setIsXenon] = useState(false)
 
+  const [isUseCases, setIsUsesCases] = useState(false)
+
+  const [isModules, setIsModules] = useState(false)
+
+  const [isCompany, setIsCompany] = useState(false)
   
 
   return (
@@ -272,10 +277,10 @@ function App() {
       <nav className='link-container'>
         <img className='gridx-logo' src={gridxLogo} alt="gridx logo"/>
         <ul className="link-wrapper">
-          <li><Link onMouseOver={() => setIsXenonHover(!isXenonHover)} onMouseOut={() => setIsXenonHover(isXenonHover)} className="link" to="/">XENON</Link></li>
-          <li><Link className="link" to="/">Use cases</Link></li>
-          <li><Link className="link" to="/">Modules</Link></li>
-          <li><Link className="link" to="/">Company</Link></li>
+          <li><Link onMouseEnter={() => setIsXenon(true)} onMouseLeave={() => setIsXenon(false)}  className="link" to="/">XENON</Link></li>
+          <li><Link onMouseEnter={() => setIsUsesCases(true)} onMouseLeave={() => setIsUsesCases(false)} className="link" to="/">Use cases</Link></li>
+          <li><Link onMouseEnter={() => setIsModules(true)} onMouseLeave={() => setIsModules(false)}  className="link" to="/">Modules</Link></li>
+          <li><Link onMouseEnter={() => setIsCompany(true)} onMouseLeave={() => setIsCompany(false)} className="link" to="/">Company</Link></li>
         </ul>
         <button className='demo-button'><Link className="demo-link-button" to="/">book a demo</Link></button>
       </nav>
@@ -284,7 +289,7 @@ function App() {
       {/* XENONO MENU */}
 
 
-      {isXenonHover && <div className='xenon-menu-container'>
+      {isXenon   && <div className='xenon-menu-container'>
         <div className='xenon-menu-wrapper'>
           
           <div className='menu-container'>
@@ -322,7 +327,7 @@ function App() {
 
       {/* USE CASES MENU */}
 
-      <div className='usecases-menu-container'>
+      {isUseCases && <div className='usecases-menu-container'>
         <div className='usecases-menu-wrapper'>
           
           <div className='menu-container'>
@@ -354,11 +359,11 @@ function App() {
             </div>            
           </div>
         </div>
-      </div>
+      </div>}
 
       {/* MODULELS MENU */}
 
-      <div className='modules-menu-container'>
+      {isModules && <div className='modules-menu-container'>
         <div className='modules-menu-wrapper'>
           <div className='left-wrapper'>
             <h3>OPTIMIZE</h3>
@@ -512,11 +517,11 @@ function App() {
             </Link>
           </div>
         </div>
-      </div>
+      </div>}
 
       {/* COMPANY MENU */}
 
-      <div className='company-menu-container'>
+      {isCompany && <div className='company-menu-container'>
         <div className='company-menu-wrapper'>
           <div className='company-top'>
             <div className='company-left'>
@@ -599,7 +604,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div>}
 
       <Routes>
         <Route path='/' element={<HomeContainer/>} />
