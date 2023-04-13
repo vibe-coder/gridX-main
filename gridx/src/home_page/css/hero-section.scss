@@ -77,7 +77,7 @@
     padding: 0 200px;
     align-items: flex-start;
     margin-top: 0;
-    padding-top: 50px;
+    padding-top: 80px;
     background-color: rgba($color: #fefefe, $alpha: 0.6);
 
     .left-column{
@@ -85,7 +85,6 @@
       flex-direction: column;
       height: 100vh;
       width: 60%;
-      background-color: yellow;
       justify-content: flex-start;
       padding-top: 150px;
       
@@ -125,7 +124,6 @@
       overflow: hidden;
       display: flex;
       justify-content: flex-end;
-      background-color: blue;
 
       img{
         width: 550px;
