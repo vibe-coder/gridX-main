@@ -74,24 +74,24 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 0 100px;
+    padding: 0 140px;
     align-items: flex-start;
     margin-top: 0;
-    padding-top: 40px;
-    background-color: rgba($color: #ff0000, $alpha: 0.6);
+    padding-top: 60px;
+    background-color: rgba($color: #ffffff, $alpha: 0.6);
 
     .left-column{
       display: flex;
       flex-direction: column;
       height: 100vh;
-      width: 80%;
+      width: 70%;
       justify-content: flex-start;
       padding-top: 150px;
-      background-color: yellow;
+
       
       h1{
-        font-size: 4.5rem;
-        line-height: 4.5rem;
+        font-size: 4.2rem;
+        line-height: 4.2rem;
         font-weight: 900;
       }
 
