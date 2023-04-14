@@ -68,7 +68,7 @@
 @media (min-width:1200px){
   .client-container{
     padding: 130px 140px;
-    height: 100vh;
+    height: 90vh;
 
     .client-company-container{
       display: flex;
@@ -84,7 +84,6 @@
     }
 
     .focus-gridx-container{
-      background-color: yellow;
       h4{
         font-size: 1rem;
         margin: 0;
@@ -103,7 +102,6 @@
         justify-content: space-between;
 
         .focus-wrapper{
-          background: blue;
 
           img{
             width: 40px;
@@ -119,7 +117,6 @@
 
           p{
             font-size: 1rem;
-            background-color: lightblue;
           }
         }
 
