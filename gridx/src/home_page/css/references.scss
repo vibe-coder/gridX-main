@@ -113,7 +113,7 @@
       flex-direction: column;
       justify-content: center;
       height: 100vh;
-      width: 30%;
+      width: 35%;
 
       h4{
         font-size: 1rem;
@@ -128,19 +128,21 @@
       }
 
       p{
-        font-size: 1.1rem;
-        width: 450px;
+        font-size: 1rem;
+        width: 440px;
+        background-color: yellow;
       }
     }
 
     .second-column{
       display: flex;
       flex-wrap: wrap;
-      height: 84vh;
+      height: 100vh;
       column-gap: 30px;
       justify-content: flex-end;
       align-items: center;
-      width: 70%;
+      width: 65%;
+      background-color: red;
     
     }
   }
