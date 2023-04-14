@@ -6,7 +6,7 @@ export default function API(){
     <div className="api-container">
       <div className="first-wrapper">
         <h4>API</h4>
-        <h3>Concentrate on the logic - not the infrastructure</h3>
+        <h3>Concentrate on the logic - <br/> not the infrastructure</h3>
         <p>Use our API to build energy management applications from scratch and implement your own custom logic.</p>
         <button>Get access</button>
         <a href="/">Read the docs ›</a>
