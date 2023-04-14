@@ -55,7 +55,7 @@ function App() {
         
         <div role='button' id='menu-button' className="menu-icon">
           <input onClick={() => setIsOpen(!isOpen)} type="checkbox" id="menu_checkbox"/>
-          <label for="menu_checkbox">
+          <label htmlFor="menu_checkbox">
             <div></div>
             <div></div>
             <div></div>

@@ -74,19 +74,20 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 0 200px;
+    padding: 0 100px;
     align-items: flex-start;
     margin-top: 0;
-    padding-top: 80px;
-    background-color: rgba($color: #fefefe, $alpha: 0.6);
+    padding-top: 40px;
+    background-color: rgba($color: #ff0000, $alpha: 0.6);
 
     .left-column{
       display: flex;
       flex-direction: column;
       height: 100vh;
-      width: 60%;
+      width: 80%;
       justify-content: flex-start;
       padding-top: 150px;
+      background-color: yellow;
       
       h1{
         font-size: 4.5rem;
@@ -98,7 +99,8 @@
         font-size: 1.1rem;
         width: 65%;
         line-height: 1.6rem;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
+        width: 400px;
       }
 
       .button-wrapper{
