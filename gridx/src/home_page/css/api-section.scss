@@ -85,19 +85,21 @@
 
 @media (min-width:1200px){
   .api-container{
-    height: 80vh;
+    height: 100vh;
     padding: 120px 0;
     display: flex;
     column-gap: 110px;
     padding-left: 200px;
+    align-items: center;
 
     .first-wrapper{
       width: 80%;
+      background-color: red;
+      height: 100vh;
 
       h4{
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 0;
-        margin-bottom: 5px;
       }
   
       h3{
