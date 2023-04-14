@@ -41,6 +41,11 @@
       font-size: 1.2rem;
       display: inline;
       margin-right: 30px;
+      transition: 0.2s ease-in-out;
+    }
+
+    button:hover{
+      background-color: rgba($color: #0bb7b4, $alpha: 0.7);
     }
 
     a{
@@ -48,7 +53,11 @@
       color: #0bb7b4;
       font-weight: 500;
       font-size: 1.2rem;
-      
+    }
+
+    a:hover{
+      color: #0bb7b4;
+      opacity: 0.7;
     }
 
     .sub-first-wrapper{

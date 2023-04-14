@@ -111,11 +111,22 @@
           padding: 16px 35px;
           cursor: pointer;
           margin-right: 30px;
+          transition: 0.2s ease-in-out;
         }
+
+        .demo-button:hover{
+          background-color: rgba($color: #0bb7b4, $alpha: 0.7);
+        }
+
         .sales-button{
           padding: 0 0;
           height: 20px;
           cursor: pointer;
+          transition: 0.2s ease-in-out;
+        }
+
+        .sales-button:hover{
+          color: grey;
         }
       }
     }

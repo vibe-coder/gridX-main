@@ -282,7 +282,7 @@ function App() {
           <li><Link onMouseEnter={() => setIsModules(true)} onMouseLeave={() => setIsModules(false)}  className="link" to="/">Modules</Link></li>
           <li><Link onMouseEnter={() => setIsCompany(true)} onMouseLeave={() => setIsCompany(false)} className="link" to="/">Company</Link></li>
         </ul>
-        <button className='demo-button'><Link className="demo-link-button" to="/">book a demo</Link></button>
+        <button className='demo-button'>book a demo</button>
       </nav>
 
 

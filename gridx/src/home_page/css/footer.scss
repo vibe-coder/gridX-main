@@ -85,6 +85,11 @@
       display: flex;
       align-items: center;
       font-size: .9rem;
+      transition: 0.2s ease-in-out;
+    }
+
+    button:hover{
+      background-color: rgb(60, 60, 60);
     }
 
     img{
@@ -102,8 +107,8 @@
 
 @media (min-width:1200px){
   .footer-container{
-    padding: 0 200px;
-    padding-top: 80px;
+    padding: 0 140px;
+    padding-top: 180px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -132,6 +137,7 @@
 
       p{
         text-align: left;
+        margin: 0;
         font-size: 1.1rem;
       }
 
@@ -148,6 +154,7 @@
       p{
         text-align: left;
         font-size: 1.1rem;
+        margin: 0;
       }
 
       a{
@@ -163,6 +170,7 @@
       p{
         text-align: left;
         font-size: 1.1rem;
+        margin: 0;
       }
 
       a{

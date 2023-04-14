@@ -309,12 +309,19 @@
         background-color: #0bb7b4;
         border: none;
         cursor: pointer;
+        color: white;
+        font-family: Mark Pro;
+        transition: 0.2s ease-in-out;
 
         .demo-link-button{
           text-decoration: none;
           font-family: Mark Pro;
           color: white;
         }
+      }
+
+      .demo-button:hover{
+        background-color: rgba($color: #0bb7b4, $alpha: 0.7);
       }
       
     }
@@ -331,7 +338,7 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
-      padding-top: 150px;
+      padding-top: 115px;
 
       .xenon-menu-wrapper{
         width: 330px;
@@ -398,7 +405,7 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
-      padding-top: 150px;
+      padding-top: 115px;
 
       .usecases-menu-wrapper{
         width: 420px;
@@ -497,13 +504,13 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
-      padding-top: 150px;
+      padding-top: 115px;
 
 
       .modules-menu-wrapper{
         background-color: white;
         width: 1000px;
-        height: 500px;
+        height: 590px;
         display: flex;
         justify-content: space-between;
         border-radius: 20px;
@@ -656,7 +663,7 @@
       justify-content: center;
       padding-top: 10px;
       z-index: 1000000000;
-      padding-top: 150px;
+      padding-top: 115px;
 
       .company-menu-wrapper{
         background-color: white;
