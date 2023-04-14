@@ -101,11 +101,11 @@
 
 @media (min-width:1200px){
   .references-container{
-    padding: 120px 200px;
+    padding: 120px 140px;
     display: flex;
     height: 80vh;
     align-items: center;
-    background-color: rgba($color: #ffffff, $alpha: 1);
+    background-color: rgba($color: #ff0000, $alpha: 1);
     
     
 
@@ -114,17 +114,19 @@
       flex-direction: column;
       justify-content: center;
       height: 100vh;
-      width: 67%;
+      width: 30%;
+      background-color: lightblue;
 
       h4{
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 0;
-        margin-bottom: 5px;
       }
 
       h3{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
+        margin: 0;
+        margin-bottom: 20px;
       }
 
       p{
@@ -140,6 +142,8 @@
       column-gap: 30px;
       justify-content: flex-end;
       align-items: center;
+      background-color: green;
+      width: 70%;
     
     }
   }
