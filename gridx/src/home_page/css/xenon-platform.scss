@@ -53,20 +53,21 @@
     height: 80vh;
     padding: 120px 200px;
     display: flex;
+    align-items: center;
 
     .first-wrapper{
       width: 100%;
       
       h4{
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 0;
         margin-bottom: 5px;
       }
 
       h3{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
-        line-height: 50px;
+        line-height: 2.5rem;
         margin-bottom: 80px;
       }
       
@@ -77,14 +78,14 @@
 
     .second-wrapper{
       width: 100%;
-      padding-top: 159px;
+      padding-top: 50px;
 
       h3{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
 
       p{
-        font-size: 1.1rem;
+        font-size: 1rem;
         width: 500px;
       }
     }
